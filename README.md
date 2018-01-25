@@ -17,7 +17,7 @@ W dowolnym miejscu od razu będzie się dało wywołać komendę "jbgit".
 ## Komendy
 - **jbgit init** - tworzy z obecnego katalogu repozytorium, dodaje plik .jbgit
 - **jbgit add [args]** - oznacza podane w [args] pliki jako staged
-- **jbgit add * ** - robi podobnie dla wszystkich nowych lub zmienionych plikow, rekursywnie po calym repozytorium
+- **jbgit add \*** - robi podobnie dla wszystkich nowych lub zmienionych plikow, rekursywnie po calym repozytorium
 - **jbgit commit** - commituje pliki staged file
 
 Program dodatkowo :
