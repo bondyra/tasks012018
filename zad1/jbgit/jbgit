@@ -1,0 +1,25 @@
+#!/usr/bin/python
+
+import os
+import sys
+
+from lib.core import command_handler as ch
+from lib.core import file_utils as fu
+from lib.core import message_builder as mb
+from lib.core import runner as ru
+from lib.core import versioning as ve
+from lib.core import io
+
+args = sys.argv
+path = os.getcwd()
+
+messageBuilder = mb.MessageBuilder()
+fileUtils = fu.FileUtils()
+storage = io.Storage(fileUtils)
+versioning = ve.Versioning(fileUtils)
+commandHandler = ch.CommandHandler(fileUtils, messageBuilder, versioning)
+
+runner = ru.Runner(path, args, storage, fileUtils, commandHandler)
+status = runner.run()
+
+print (status)
