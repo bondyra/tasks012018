@@ -3,7 +3,7 @@ Program gitopodobny znajduje się w katalogu zad1/jbgit
 
 ## Podstawowe wymagania
 - Python 2.7
-- unikspodobny OS
+- uniksopodobny OS
 ## Wymagania uruchomienia testów jednostkowych
 mock (https://pypi.python.org/pypi/mock)
 
