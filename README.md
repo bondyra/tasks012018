@@ -1,18 +1,20 @@
-# Zadanie 1
+l# Zadanie 1
 Program gitopodobny znajduje się w katalogu zad1/jbgit
 
 ## Podstawowe wymagania
 Python 2.7
+unikspodobny OS
 ## Wymagania uruchomienia testów jednostkowych
 mock (https://pypi.python.org/pypi/mock)
 
 ## Instalacja
 Instalacja poprzez wrzucenie symlinka do /usr/bin.
-Należy uruchomić przez terminal skrypt install:
+
+Jedyne co należy zrobić, to uruchomić przez terminal skrypt install (znajdując się w katalogu z tym skryptem):
 [~/jbgit]:sudo ./install
 
 ## Użycie 
-W dowolnym miejscu od razu będzie się dało wywołać komendę "jbgit".
+Po "instalacji", w dowolnym miejscu można wywołać program przez komendę jbgit.
 
 ## Komendy
 - **jbgit init** - tworzy z obecnego katalogu repozytorium, dodaje plik .jbgit
@@ -26,3 +28,6 @@ Program dodatkowo :
 - radzi sobie z dziwnymi ścieżkami w stylu "./dir/../dir/x". Jednocześnie nie doda nic spoza obecnego katalogu.
 
 # Zadanie 2
+
+Raport zawarty jest w pierwszej części notebooka.
+Dalsza część przedstawia moją pracę nad tym zadaniem. W notebooku zawarte są komentarze opisujące moje zamiary w poszczególnych miejscach analizy.
