@@ -1,9 +1,9 @@
-l# Zadanie 1
+# Zadanie 1
 Program gitopodobny znajduje się w katalogu zad1/jbgit
 
 ## Podstawowe wymagania
-Python 2.7
-unikspodobny OS
+- Python 2.7
+- unikspodobny OS
 ## Wymagania uruchomienia testów jednostkowych
 mock (https://pypi.python.org/pypi/mock)
 
@@ -11,6 +11,7 @@ mock (https://pypi.python.org/pypi/mock)
 Instalacja poprzez wrzucenie symlinka do /usr/bin.
 
 Jedyne co należy zrobić, to uruchomić przez terminal skrypt install (znajdując się w katalogu z tym skryptem):
+
 [~/jbgit]:sudo ./install
 
 ## Użycie 
